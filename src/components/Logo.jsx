@@ -6,7 +6,7 @@ const Logo = () => {
 
     return (
 
-        <img src={LogoTienda} alt="" style={{ borderRadius: '10px'}} />
+        <img src={LogoTienda} alt="" style={{ borderRadius: '10px' }} />
 
     )
 
