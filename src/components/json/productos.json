@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "tittle": "FitFormula",
+        "description": "lorem",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2020/08/fit-formula-gato.jpg?w=370&ssl=1",
+        "price": 27900,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 2,
+        "tittle": "FitFormula",
+        "description": "lorem",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2020/08/fit-formula-gato.jpg?w=370&ssl=1",
+        "price": 27900,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 3,
+        "tittle": "Rascador",
+        "description": "lorem",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador-gato-8039-beige.jpg?w=370&ssl=1",
+        "price": 12700,
+        "categoria": "Juguetes y Accesorios"
+    },
+    {
+        "id": 4,
+        "tittle": "Rascador",
+        "description": "lorem",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador-gato-8039-beige.jpg?w=370&ssl=1",
+        "price": 12700,
+        "categoria": "Juguetes y Accesorios"
+    },
+    {
+        "id": 5,
+        "tittle": "Rascador",
+        "description": "lorem",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador-gato-8039-beige.jpg?w=370&ssl=1",
+        "price": 12700,
+        "categoria": "Juguetes y Accesorios"
+    },
+    {
+        "id": 6,
+        "tittle": "Shampo",
+        "description": "lorem",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2021/05/regepipel-shampoo.jpg?w=370&ssl=1",
+        "price": 10900,
+        "categoria": "Higiene"
+    },
+    {
+        "id": 7,
+        "tittle": "Shampo",
+        "description": "lorem",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2021/05/regepipel-shampoo.jpg?w=370&ssl=1",
+        "price": 10900,
+        "categoria": "Higiene"
+    },
+    {
+        "id": 8,
+        "tittle": "Shampo",
+        "description": "lorem",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2021/05/regepipel-shampoo.jpg?w=370&ssl=1",
+        "price": 10900,
+        "categoria": "Higiene"
+    }
+]

@@ -21,7 +21,7 @@ const ItemCount = ({stock}) => {
     const onAdd =() =>{
         if(counter<itemStock){
             setItemStock(itemStock - counter)
-            setCounter(1)
+            setCounter(1) 
         }
 
     }
