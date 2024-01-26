@@ -1,3 +1,4 @@
+import ItemCount from "./ItemCount"
 
 
 const ItemListContainer = ({ greeting }) => {
@@ -8,6 +9,7 @@ const ItemListContainer = ({ greeting }) => {
                 <div className="col text-center">
                     <div className="alert alert-info p-2" role="alert">
                         <h3 className="display-3">{greeting}</h3>
+                        <ItemCount stock={10}/>
                     </div>
 
                 </div>

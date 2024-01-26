@@ -6,8 +6,13 @@ const Logo = () => {
 
     return (
 
-        <img src={LogoTienda} alt="" style={{ borderRadius: '10px' }} />
 
+
+        
+        <div>
+            <img src={LogoTienda} alt="" style={{ borderRadius: '10px' }} />
+            
+        </div>
     )
 
 }
