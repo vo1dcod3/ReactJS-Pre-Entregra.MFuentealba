@@ -3,7 +3,7 @@ import Item from "./Item"
 
 const ItemList = ({ items }) => {
 
-    const [productos, setProductos] = useState(items)
+    // const [productos, setProductos] = useState(items)
     return (
 
 

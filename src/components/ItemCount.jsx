@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const ItemCount = ({stock}) => {
 
@@ -26,11 +26,15 @@ const ItemCount = ({stock}) => {
 
     }
 
+    useEffect(() =>{
+        setItemStock(stock)
+    },[stock])
+
     return (
 
         <>
             <div className="row">
-                <div className="col-12-md-2">
+                <div className="col-12-md-3 p-2">
                     <div className="btn-group" role="group" aria-label="Basic example">
                         <button type="button" className="btn btn-primary" onClick={decrementar}>-</button>
                         <button type="button" className="btn btn-primary">{counter}</button>
@@ -39,7 +43,7 @@ const ItemCount = ({stock}) => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-12-md-2">
+                <div className="col-12-md-3 p-2">
                     <button type="button" className="btn btn-primary">Agregar</button>
                 </div>
             </div>

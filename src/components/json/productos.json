@@ -1,66 +1,74 @@
 [
     {
         "id": 1,
-        "tittle": "FitFormula",
-        "description": "lorem",
+        "title": "FitFormula",
+        "description": "Alimento balanceado para gatos, ¡energía y vitalidad en cada bocado!",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2020/08/fit-formula-gato.jpg?w=370&ssl=1",
         "price": 27900,
-        "categoria": "Alimentos"
+        "category": "Alimentos",
+        "stock": 10
     },
     {
         "id": 2,
-        "tittle": "FitFormula",
-        "description": "lorem",
+        "title": "FitFormula",
+        "description": "¡Nutrición completa para tu felino favorito!",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2020/08/fit-formula-gato.jpg?w=370&ssl=1",
         "price": 27900,
-        "categoria": "Alimentos"
+        "category": "Alimentos",
+        "stock": 10
     },
     {
         "id": 3,
-        "tittle": "Rascador",
-        "description": "lorem",
+        "title": "Rascador",
+        "description": "Divertido y resistente, perfecto para satisfacer los instintos de tu gato.",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador-gato-8039-beige.jpg?w=370&ssl=1",
         "price": 12700,
-        "categoria": "Juguetes y Accesorios"
+        "category": "Juguetes",
+        "stock": 10
     },
     {
         "id": 4,
-        "tittle": "Rascador",
-        "description": "lorem",
+        "title": "Rascador",
+        "description": "¡El juguete favorito de tu gato para afilar sus uñas y jugar!",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador-gato-8039-beige.jpg?w=370&ssl=1",
         "price": 12700,
-        "categoria": "Juguetes y Accesorios"
+        "category": "Juguetes",
+        "stock": 10
     },
     {
         "id": 5,
-        "tittle": "Rascador",
-        "description": "lorem",
+        "title": "Rascador",
+        "description": "El complemento ideal para tu hogar, ¡diversión garantizada para tu gato!",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador-gato-8039-beige.jpg?w=370&ssl=1",
         "price": 12700,
-        "categoria": "Juguetes y Accesorios"
+        "category": "Juguetes",
+        "stock": 10
     },
     {
         "id": 6,
-        "tittle": "Shampo",
-        "description": "lorem",
+        "title": "Shampo",
+        "description": "Shampoo suave y delicado, ¡ideal para la piel sensible de tu gato!",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2021/05/regepipel-shampoo.jpg?w=370&ssl=1",
         "price": 10900,
-        "categoria": "Higiene"
+        "category": "Higiene",
+        "stock": 10
     },
     {
         "id": 7,
-        "tittle": "Shampo",
-        "description": "lorem",
+        "title": "Shampo",
+        "description": "Fórmula especial para pelajes sedosos y brillantes, ¡tu gato lucirá espectacular!",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2021/05/regepipel-shampoo.jpg?w=370&ssl=1",
         "price": 10900,
-        "categoria": "Higiene"
+        "category": "Higiene",
+        "stock": 10
     },
     {
         "id": 8,
-        "tittle": "Shampo",
-        "description": "lorem",
+        "title": "Shampo",
+        "description": "Limpieza profunda y frescura duradera, ¡para un pelaje impecable de tu gato!",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2021/05/regepipel-shampoo.jpg?w=370&ssl=1",
         "price": 10900,
-        "categoria": "Higiene"
+        "category": "Higiene",
+        "stock": 10
     }
 ]
