@@ -8,13 +8,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import ItemDetailContainer from "./components/ItemDetailContainer"
 import Error404 from "./components/Error404"
 import Cart from "./components/Cart"
-import CartContexProvider from "./components/context/CartContex"
+import CartContextProvider from "./components/context/CartContext"
+import Checkout from "./components/Checkout"
 
 
 const App = () => {
   return (
 
-    <CartContexProvider>
+    <CartContextProvider>
     <BrowserRouter>
       <NavBar />
       <Routes>
@@ -22,12 +23,13 @@ const App = () => {
         <Route path={"/category/:id"} element={<ItemListContainer />} />
         <Route path={"/item/:id"} element={<ItemDetailContainer />} />
         <Route path={"/cart"} element={<Cart/>} />
+        <Route path={"/checkout"} element={<Checkout/>} />
         <Route path={"*"} element={<Error404 />} />
       </Routes>
       <Banner />
       <Footer />
     </BrowserRouter>
-    </CartContexProvider>
+    </CartContextProvider>
 
 
   )

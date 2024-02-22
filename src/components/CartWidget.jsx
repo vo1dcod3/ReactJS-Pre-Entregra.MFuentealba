@@ -1,10 +1,10 @@
 import { useContext } from "react"
 import IconCart from "../assets/cart.svg"
 import { Link } from "react-router-dom"
-import { CartContex } from "./context/CartContex"
+import { CartContext } from "./context/CartContext"
 
 const CartWidget = () => {
-    const { CantTotalProductos } = useContext(CartContex );
+    const { CantTotalProductos } = useContext(CartContext );
 
     return (
          CantTotalProductos()> 0 ? <Link to={"/cart"} className="btn btn-info position-relative">
