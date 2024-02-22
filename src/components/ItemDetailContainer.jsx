@@ -15,7 +15,7 @@ const ItemDetailContainer = () => {
                 let producto = arrayProductos.find(item =>item.id ===parseInt(id));
 
                 resolve(producto);
-            }, 300)
+            }, 1000)
         })
         promesa.then(data => {
             setItem(data)

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { useParams } from 'react-router-dom'
-import arrayProductos from "./json/productos.json"
+import { getFirestore, getDocs, collection, query } from 'firebase/firestore'
+// import arrayProductos from "./json/productos.json"
 import ItemList from "./ItemList";
 import Carousel from "./Carousel";
 
@@ -8,20 +9,18 @@ import Carousel from "./Carousel";
 
 const ItemListContainer = () => {
     const [items, setItems] = useState([]);
-    const { id } = useParams()
+    const { id } = useParams();
 
 
+    // llamada del producto
     useEffect(() => {
-        const promesa = new Promise(resolve => {
-            setTimeout(() => {
-                resolve(id ? arrayProductos.filter(item => item.category === id) : arrayProductos);
-            }, 2000)
-        })
-        promesa.then(data => {
-            setItems(data)
-        })
-    }, [id])
-
+        const db = getFirestore();
+        const itemsCollection = collection(db, "items");
+        const consulta = id ? query(itemsCollection, where("categoria", "==", id)) : itemsCollection;
+        getDocs(consulta).then(resultado => {
+            setItems(resultado.docs.map(producto => ({ id: producto.id, ...producto.data() })));
+        });
+    }, [id]);
     return (
         <>
             {id ? "" : <Carousel />}
