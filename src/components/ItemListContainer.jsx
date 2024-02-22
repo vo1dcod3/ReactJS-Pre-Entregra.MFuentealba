@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from 'react-router-dom'
-import { getFirestore, getDocs, collection, query } from 'firebase/firestore'
+import { getFirestore, getDocs, collection, query} from 'firebase/firestore'
 // import arrayProductos from "./json/productos.json"
 import ItemList from "./ItemList";
 import Carousel from "./Carousel";
