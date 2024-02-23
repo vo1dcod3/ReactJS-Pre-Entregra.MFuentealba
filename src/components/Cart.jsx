@@ -14,7 +14,7 @@ const Cart = () => {
                     <div className="col">
                         <p>🐈</p>
                         <div className="alert alert-info" role="alert">NO HAY PRODUCTOS EN EL CARRITO</div>
-                        <Link to={"/productos"} className="btn btn-warning my-5">VOLVER A PRODUCTOS</Link>
+                        <Link to={"/"} className="btn btn-warning my-5">VOLVER A PRODUCTOS</Link>
                     </div>
                 </div>
             </div>
