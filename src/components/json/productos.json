@@ -1,72 +1,72 @@
 [
     {
-        "id": 1,
+        "idx": 1,
         "title": "FitFormula",
-        "description": "Alimento balanceado para gatos, ¡energía y vitalidad en cada bocado!",
+        "description": "Alimento balanceado para gatos, ¡energía y vitalidxad en cada bocado!",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2020/08/fit-formula-gato.jpg?w=370&ssl=1",
         "price": 27900,
         "category": "Alimentos",
         "stock": 10
     },
     {
-        "id": 2,
-        "title": "FitFormula",
+        "idx": 2,
+        "title": "Taste Of The Wild",
         "description": "¡Nutrición completa para tu felino favorito!",
-        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2020/08/fit-formula-gato.jpg?w=370&ssl=1",
-        "price": 27900,
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2020/08/rocky-mountain-feline.jpg?w=370&ssl=1",
+        "price": 47900,
         "category": "Alimentos",
         "stock": 10
     },
     {
-        "id": 3,
-        "title": "Rascador",
-        "description": "Divertido y resistente, perfecto para satisfacer los instintos de tu gato.",
+        "idx": 3,
+        "title": "Rascador Simple",
+        "description": "Divertidxo y resistente, perfecto para satisfacer los instintos de tu gato.",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador-gato-8039-beige.jpg?w=370&ssl=1",
         "price": 12700,
         "category": "Juguetes",
         "stock": 10
     },
     {
-        "id": 4,
-        "title": "Rascador",
+        "idx": 4,
+        "title": "Rascador Mediano con Cueva y Plataforma",
         "description": "¡El juguete favorito de tu gato para afilar sus uñas y jugar!",
-        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador-gato-8039-beige.jpg?w=370&ssl=1",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/catit-rascador.jpg?w=370&ssl=1",
+        "price": 64900,
+        "category": "Juguetes",
+        "stock": 10
+    },
+    {
+        "idx": 5,
+        "title": "Rascador 3 Plataformas",
+        "description": "El complemento idxeal para tu hogar, ¡diversión garantizada para tu gato!",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador_gato_8015_coffe_withe.jpg?w=370&ssl=1",
         "price": 12700,
         "category": "Juguetes",
         "stock": 10
     },
     {
-        "id": 5,
-        "title": "Rascador",
-        "description": "El complemento ideal para tu hogar, ¡diversión garantizada para tu gato!",
-        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/rascador-gato-8039-beige.jpg?w=370&ssl=1",
-        "price": 12700,
-        "category": "Juguetes",
-        "stock": 10
-    },
-    {
-        "id": 6,
-        "title": "Shampo",
-        "description": "Shampoo suave y delicado, ¡ideal para la piel sensible de tu gato!",
+        "idx": 6,
+        "title": "Shampoo Regépipel",
+        "description": "Shampoo suave y delicado, ¡idxeal para la piel sensible de tu gato!",
         "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2021/05/regepipel-shampoo.jpg?w=370&ssl=1",
-        "price": 10900,
+        "price": 14900,
         "category": "Higiene",
         "stock": 10
     },
     {
-        "id": 7,
-        "title": "Shampo",
+        "idx": 7,
+        "title": "Shampoo Nutri Plus",
         "description": "Fórmula especial para pelajes sedosos y brillantes, ¡tu gato lucirá espectacular!",
-        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2021/05/regepipel-shampoo.jpg?w=370&ssl=1",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/09/pet-head-felin-good-foam-200ml.jpg?resize=300%2C300&ssl=1",
         "price": 10900,
         "category": "Higiene",
         "stock": 10
     },
     {
-        "id": 8,
-        "title": "Shampo",
+        "idx": 8,
+        "title": "Shampoo Coatex",
         "description": "Limpieza profunda y frescura duradera, ¡para un pelaje impecable de tu gato!",
-        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2021/05/regepipel-shampoo.jpg?w=370&ssl=1",
+        "image": "https://i0.wp.com/petstorechile.cl/wp-content/uploads/2022/02/skout-honor-shampoo-madre-selva.jpg?resize=300%2C300&ssl=1",
         "price": 10900,
         "category": "Higiene",
         "stock": 10

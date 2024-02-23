@@ -17,11 +17,22 @@ const CartContextProvider = ({children}) =>{
         }
 
     }
-    const removeItem=(id) =>{
-        const items =cart.filter(product => product.id !=id)
-        setCart([...items])
-
-    }
+    const removeItem = (id) => {
+        const updatedCart = cart.map(item => {
+            if (item.id === id) {
+                // Si la cantidad es mayor a 1, disminuir en uno la cantidad
+                if (item.quantity > 1) {
+                    return { ...item, quantity: item.quantity - 1 };
+                }
+                // Si la cantidad es 1, mantener el producto en el carrito
+                // pero con cantidad 0
+                return { ...item, quantity: 0 };
+            }
+            return item;
+        });
+        setCart(updatedCart);
+    };
+    
 
     const clear =()=>{
         setCart([]);
